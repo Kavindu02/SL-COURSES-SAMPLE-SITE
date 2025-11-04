@@ -9,8 +9,8 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="<?php echo base_url('assets/');?>assets/img/favicon.png" rel="icon">
-  <link href="<?php echo base_url('assets/');?>assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="<?php echo base_url('assets/');?>assets/img/1.jpg"rel="icon">
+  <link href="<?php echo base_url('assets/');?>assets/img/1.jpg" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -27,13 +27,6 @@
   <!-- Main CSS File -->
   <link href="<?php echo base_url('assets/');?>assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Squadfree
-  * Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
@@ -42,8 +35,7 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
+
         <h1 class="sitename">SL Courses</h1>
       </a>
 
@@ -51,7 +43,7 @@
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Courses</a></li>
+          <li><a href="#courses">Courses</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -117,156 +109,192 @@
 </section>
 <!-- /About Section -->
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+ <!-- Courses Section -->
+<section id="courses" class="courses section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Courses</h2>
+    <p>Your Gateway to the Best Online Courses in Sri Lanka</p>
+  </div>
+  <!-- End Section Title -->
 
-      <div class="container">
+  <div class="container">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="<?php echo base_url('assets/');?>assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="<?php echo base_url('assets/');?>assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="<?php echo base_url('assets/');?>assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="<?php echo base_url('assets/');?>assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="<?php echo base_url('assets/');?>assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="<?php echo base_url('assets/');?>assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="<?php echo base_url('assets/');?>assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Books 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="<?php echo base_url('assets/');?>assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="<?php echo base_url('assets/');?>assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="<?php echo base_url('assets/');?>assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="<?php echo base_url('assets/');?>assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="<?php echo base_url('assets/');?>assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="<?php echo base_url('assets/');?>assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="<?php echo base_url('assets/');?>assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="<?php echo base_url('assets/');?>assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Books 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="<?php echo base_url('assets/');?>assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="<?php echo base_url('assets/');?>assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="<?php echo base_url('assets/');?>assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="<?php echo base_url('assets/');?>assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="<?php echo base_url('assets/');?>assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="<?php echo base_url('assets/');?>assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="<?php echo base_url('assets/');?>assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="<?php echo base_url('assets/');?>assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Books 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="<?php echo base_url('assets/');?>assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
+    <!-- Filter Row -->
+    <div class="row mb-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-4 col-md-6">
+        <select id="categoryFilter" class="form-select">
+          <option value="*">All Categories</option>
+          <option value=".it">IT & Software</option>
+          <option value=".business">Business</option>
+          <option value=".design">Design</option>
+        </select>
       </div>
 
-    </section><!-- /Portfolio Section -->
+      <div class="col-lg-4 col-md-6">
+        <select id="typeFilter" class="form-select">
+          <option value="*">All Types</option>
+          <option value=".free">Free</option>
+          <option value=".paid">Paid</option>
+        </select>
+      </div>
+
+      <div class="col-lg-4 col-md-12">
+        <input type="text" id="searchFilter" class="form-control" placeholder="Search Course...">
+      </div>
+    </div>
+    <!-- End Filter Row -->
+
+
+    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+      <!-- Course Item -->
+      <div class="col-lg-4 col-md-6 course-item it free">
+        <div class="course-card">
+          <img src="<?= base_url('assets/assets/img/1.jpg'); ?>" class="img-fluid course-img" alt="Web Development Course">
+          <div class="course-content">
+            <span class="course-tag free">Free</span>
+            <h4 class="course-title">Web Development for Beginners</h4>
+            <p class="course-provider">ESOFT Metro Campus</p>
+
+            <div class="course-meta">
+              <span><i class="bi bi-clock"></i> 4 Weeks</span>
+              <span><i class="bi bi-layers"></i> Beginner</span>
+            </div>
+            <a href="#" class="btn-course">View Course</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Course Item -->
+
+      <div class="col-lg-4 col-md-6 course-item business paid">
+        <div class="course-card">
+          <img src="<?= base_url('assets/assets/img/1.jpg'); ?>" class="img-fluid course-img" alt="Digital Marketing Course">
+          <div class="course-content">
+            <span class="course-tag paid">Paid</span>
+            <h4 class="course-title">Digital Marketing Essentials</h4>
+            <p class="course-provider">UCSC Extension Center</p>
+
+            <div class="course-meta">
+              <span><i class="bi bi-clock"></i> 6 Weeks</span>
+              <span><i class="bi bi-layers"></i> Beginner</span>
+            </div>
+            <a href="#" class="btn-course">View Course</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 course-item design free">
+        <div class="course-card">
+          <img src="<?= base_url('assets/assets/img/1.jpg'); ?>" class="img-fluid course-img" alt="Graphic Design Course">
+          <div class="course-content">
+            <span class="course-tag free">Free</span>
+            <h4 class="course-title">Graphic Design Fundamentals</h4>
+            <p class="course-provider">SLIIT Academy</p>
+
+            <div class="course-meta">
+              <span><i class="bi bi-clock"></i> 3 Weeks</span>
+              <span><i class="bi bi-layers"></i> Beginner</span>
+            </div>
+            <a href="#" class="btn-course">View Course</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Duplicate cards updated with categories -->
+      <div class="col-lg-4 col-md-6 course-item design free">
+        <div class="course-card">
+          <img src="<?= base_url('assets/assets/img/1.jpg'); ?>" class="img-fluid course-img" alt="Graphic Course">
+          <div class="course-content">
+            <span class="course-tag free">Free</span>
+            <h4 class="course-title">Adobe Illustrator Basics</h4>
+            <p class="course-provider">SLIIT Academy</p>
+
+            <div class="course-meta">
+              <span><i class="bi bi-clock"></i> 3 Weeks</span>
+              <span><i class="bi bi-layers"></i> Beginner</span>
+            </div>
+            <a href="#" class="btn-course">View Course</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 course-item it paid">
+        <div class="course-card">
+          <img src="<?= base_url('assets/assets/img/1.jpg'); ?>" class="img-fluid course-img" alt="Programming Course">
+          <div class="course-content">
+            <span class="course-tag paid">Paid</span>
+            <h4 class="course-title">C++ Programming Mastery</h4>
+            <p class="course-provider">IJSE</p>
+
+            <div class="course-meta">
+              <span><i class="bi bi-clock"></i> 8 Weeks</span>
+              <span><i class="bi bi-layers"></i> Intermediate</span>
+            </div>
+            <a href="#" class="btn-course">View Course</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 course-item business free">
+        <div class="course-card">
+          <img src="<?= base_url('assets/assets/img/1.jpg'); ?>" class="img-fluid course-img" alt="Business Course">
+          <div class="course-content">
+            <span class="course-tag free">Free</span>
+            <h4 class="course-title">Entrepreneurship Basics</h4>
+            <p class="course-provider">Open University of Sri Lanka</p>
+
+            <div class="course-meta">
+              <span><i class="bi bi-clock"></i> 2 Weeks</span>
+              <span><i class="bi bi-layers"></i> Beginner</span>
+            </div>
+            <a href="#" class="btn-course">View Course</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- /Courses Section -->
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+
+    const categoryFilter = document.getElementById('categoryFilter');
+    const typeFilter = document.getElementById('typeFilter');
+    const searchFilter = document.getElementById('searchFilter');
+    const items = document.querySelectorAll('.course-item');
+
+    function filterCourses() {
+      let category = categoryFilter.value;
+      let type = typeFilter.value;
+      let searchText = searchFilter.value.toLowerCase();
+
+      items.forEach(item => {
+        const matchesCategory = category === "*" || item.classList.contains(category.substring(1));
+        const matchesType = type === "*" || item.classList.contains(type.substring(1));
+        const matchesSearch = item.querySelector('.course-title').innerText.toLowerCase().includes(searchText);
+
+        if (matchesCategory && matchesType && matchesSearch) {
+          item.style.display = "block";
+        } else {
+          item.style.display = "none";
+        }
+      });
+    }
+
+    categoryFilter.addEventListener('change', filterCourses);
+    typeFilter.addEventListener('change', filterCourses);
+    searchFilter.addEventListener('keyup', filterCourses);
+  });
+</script>
+
+
 
     <!-- Contact Section -->
 <section id="contact" class="contact section">
@@ -332,7 +360,7 @@
 
       <div class="col-lg-4 col-md-6 footer-about">
         <a href="index.html" class="logo d-flex align-items-center mb-2">
-          <span class="sitename">SL Courses</span>
+          <span class="sitename">SL COURSES</span>
         </a>
         <p class="small">
           Your trusted platform to find and explore online courses offered by Sri Lankan institutes.
@@ -368,8 +396,9 @@
   </div>
 
   <div class="container copyright text-center mt-4">
-    <p>© <strong class="sitename">SL Courses</strong> — All Rights Reserved.</p>
-  </div>
+    <p>© <?= date('Y'); ?> <strong class="sitename">SL Courses</strong> | All Rights Reserved.</p>
+</div>
+
 
 </footer>
 
