@@ -1206,7 +1206,6 @@
     <!-- Hero Section -->
     <section id="hero" class="hero">
       <div class="hero-content">
-        <div class="hero-badge">✨ Premium Learning Platform</div>
         <h1>Transform Your Future with SL Courses</h1>
         <p>Discover world-class online courses from Sri Lanka's leading institutions</p>
         <div class="cta-buttons">
