@@ -49,7 +49,7 @@ Create a virtual host or point your document root to the project folder.
 Example Apache configuration:
 ```apache
 <VirtualHost *:80>
-    ServerName slcourses.local
+    ServerName sl-courses.local
     DocumentRoot /path/to/SL-COURSES-SAMPLE-SITE
     
     <Directory /path/to/SL-COURSES-SAMPLE-SITE>
@@ -65,7 +65,7 @@ Example Apache configuration:
 ```nginx
 server {
     listen 80;
-    server_name slcourses.local;
+    server_name sl-courses.local;
     root /path/to/SL-COURSES-SAMPLE-SITE;
     index index.php index.html;
 
@@ -87,9 +87,9 @@ server {
 Edit the base URL in `application/config/config.php`:
 
 ```php
-$config['base_url'] = 'http://localhost/slcourses/';
+$config['base_url'] = 'http://localhost/SL-COURSES-SAMPLE-SITE/';
 // or
-$config['base_url'] = 'http://slcourses.local/';
+$config['base_url'] = 'http://sl-courses.local/';
 ```
 
 ### 4. Set Permissions
@@ -125,9 +125,9 @@ $db['default'] = array(
 
 Once configured, access the site through your web browser:
 
-- Default route: `http://localhost/slcourses/`
-- Home page: `http://localhost/slcourses/index.php/welcome/home`
-- Course details: `http://localhost/slcourses/assets/courses-details.html`
+- Default route: `http://localhost/SL-COURSES-SAMPLE-SITE/`
+- Home page: `http://localhost/SL-COURSES-SAMPLE-SITE/index.php/welcome/home`
+- Course details: `http://localhost/SL-COURSES-SAMPLE-SITE/assets/courses-details.html`
 
 ### Project Structure
 
@@ -140,9 +140,9 @@ SL-COURSES-SAMPLE-SITE/
 │   ├── views/            # View files
 │   └── ...
 ├── assets/               # Frontend assets
-│   ├── assets/          # Nested assets (CSS, JS, images, vendor libs)
+│   ├── assets/          # Static resources (CSS, JS, images, vendor libs)
 │   ├── courses-details.html
-│   └── forms/
+│   └── forms/           # Form-related pages
 ├── system/              # CodeIgniter system files
 ├── index.php            # Main entry point
 ├── .gitignore
