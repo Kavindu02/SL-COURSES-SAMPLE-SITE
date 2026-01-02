@@ -231,6 +231,6 @@ For issues, questions, or contributions, please open an issue on the GitHub repo
 
 This is a sample/demonstration site for showcasing an online learning platform interface and CodeIgniter integration.
 
----
+## 👨‍💻 Author
 
-**Made with ❤️ for the Sri Lankan education community**
+Kavindu Rathnayaka
